@@ -1,0 +1,78 @@
+[
+	{
+		"id": 1,
+		"slug": "Sabor de casa",
+		"prettyName": "Sabor de casa",
+		"description": "Comienza con uno de nuestros deliciosos aperitivos.",
+		"plates": [
+			{
+				"name": "Empanada de Queso",
+				"description": "Empanada rellena de queso suave, perfecta para un bocado delicioso y reconfortante.",
+				"price": 1
+			},
+			{
+				"name": "Empanada de Queso Picante",
+				"description": "Empanada rellena de queso y un toque de picante, ideal para los amantes del sabor intenso.",
+				"price": 1
+			},
+			{
+				"name": "Cuñapé",
+				"description": "Bolitas de arroz crujientes rellenas de queso, acompañadas con una deliciosa salsa marinara.",
+				"price": 1
+			},
+			{
+				"name": "Panecillos de Maíz",
+				"description": "Deliciosos panecillos de maíz, perfectos para acompañar cualquier plato o disfrutar solos.",
+				"price": 1
+			},
+			{
+				"name": "Pan Integral",
+				"description": "Pan integral con una mezcla de sabores caseros, ideal para acompañar cualquier comida.",
+				"price": 1
+			},
+			{
+				"name": "Pastel de Queso",
+				"description": "Suave pastel de queso, perfecto para un postre o un bocado sabroso durante el día.",
+				"price": 1
+			},
+			{
+				"name": "Bizcocho Dulce",
+				"description": "Bizcocho esponjoso y dulce, ideal para acompañar una bebida caliente o disfrutar como merienda.",
+				"price": 1
+			}
+		]
+	},
+	{
+		"id": 2,
+		"slug": "insalate",
+		"prettyName": "Insalate",
+		"description": "Fresh and healthy salads made with seasonal ingredients.",
+		"plates": [
+			{
+				"name": "Caesar Salad",
+				"description": "Crisp romaine with parmesan, croutons, and Caesar dressing.",
+				"price": 7.5
+			},
+			{
+				"name": "Panzanella",
+				"description": "Tuscan bread salad with tomatoes, cucumbers, and basil.",
+				"price": 8
+			},
+			{
+				"name": "Insalata Mista",
+				"description": "Mixed greens with cherry tomatoes, cucumbers, and a light vinaigrette.",
+				"price": 6.5
+			},
+			{
+				"name": "Caprese Salad",
+				"description": "Fresh mozzarella, tomatoes, and basil with balsamic reduction.",
+				"price": 9
+			},
+			{
+				"name": "Arugula Salad",
+				"description": "Peppery arugula with shaved parmesan and lemon dressing.",
+				"price": 7
+			}
+		]
+	}
+]

@@ -1,0 +1,17 @@
+# humanstxt.org/Standard.html
+# This file is used to provide information about the people who have contributed to building the website.
+
+# DEVELOPER
+Name: Erwin Quinteros
+Company: Efinix Tech Solutions
+Location: Brazil
+LinkedIn: https://www.linkedin.com/in/erwin-quinteros-v/
+Website: 
+Email: erwinquinterosvillarroel@gmail.com
+
+# STACK
+Astro
+TailwindCSS
+
+# SITE
+Last update: 25-1-2025

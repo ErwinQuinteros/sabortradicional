@@ -1,0 +1,116 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Hero from "~/components/Hero.astro";
+import { Picture } from "astro:assets";
+import Badge from "~/components/Badge.astro";
+import Button from "~/components/Button.astro";
+import ButtonCallUs from "~/components/ButtonCallUs.astro";
+import Article from "~/components/Article.astro";
+
+// Images
+import EmpanadaQueso from "~/assets/images/empanada-de-queso.png";
+---
+
+<Layout>
+  <Section class:list={"bg-white"}>
+    <Hero>
+      <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
+        <Badge title="El sabor Boliviano" />
+        <h1 class="font-black">
+          Sabores de Bolivia en el corazón de Valencia, una fusión auténtica que
+          conquista paladares.
+        </h1>
+
+        <p>
+          Experimente el sabor de Bolivia con nuestros platos auténticos
+          elaborados con los mejores ingredientes. Deléitate con nuestra amplia
+          variedad de empanadas, bocadillos todos elaborados con amor y
+          tradición. Le prometemos una experiencia culinaria memorable.
+        </p>
+
+        <span class="text-brand-green font-medium">✔ Solo Entregas</span>
+
+        <div class="mt-8 flex items-center gap-x-8">
+          <Button url="/book">Contáctanos</Button>
+          <ButtonCallUs />
+        </div>
+      </div>
+      <div slot="hero-content-right">
+        <Picture
+          class:list={"mx-auto"}
+          src={EmpanadaQueso}
+          height={600}
+          formats={["avif", "webp"]}
+          alt="A description of my image."
+          loading={"eager"}
+          fetchpriority={"high"}
+        />
+      </div>
+    </Hero>
+  </Section>
+
+  <Section class:list={"bg-white"}>
+    <Article>
+      <h2>Bienvenidos a Sabor Tradicional</h2>
+      <p>
+        Ubicado en el corazón de la ciudad de Valencia España, <strong
+          >Sabor Tradicional</strong
+        > ofrece una auténtica experiencia gastronómica boliviana. Desde el momento
+        en que pruebas nuestros productos, te transportarás a las tradiciones más
+        sabrosas de Bolivia, donde el sabor casero y la calidad son el centro de
+        nuestra cocina.
+      </p>
+
+      <h3>Nuestra Historia</h3>
+      <p>
+        Fundado en el año <em> 2000</em>, nuestro negocio familiar ha sido
+        siempre un verdadero trabajo de amor. Inspirada por las recetas que su
+        madre le transmitió, Poli comenzó a hacer pan y empanadas en Bolivia,
+        vendiéndolos en las ferias locales. Desde entonces, la tradición de la
+        panadería ha pasado de generación en generación, y con el tiempo, Poli
+        amplió su oferta con cuñapés, bizcochos y pan integral. Cada uno de
+        nuestros productos cuenta una historia de esfuerzo, pasión y sabor,
+        llevando consigo el legado de una familia dedicada a ofrecer lo mejor de
+        la gastronomía tradicional.
+      </p>
+
+      <h3>Nuestra Filosofía</h3>
+      <blockquote>"El ingrediente secreto siempre es el amor."</blockquote>
+      <p>
+        En Sabor Tradicional, creemos en la alegría de los ingredientes frescos,
+        las recetas transmitidas por generaciones y la pasión por crear
+        productos que dejen huella. Desde nuestro pan recién horneado hasta
+        nuestros cuñapés y bizcochos, cada bocado está hecho con dedicación y el
+        sabor de la tradición.
+      </p>
+
+      <h4>¿Qué nos hace especiales?</h4>
+      <ul>
+        <li>
+          <strong>Autenticidad:</strong> Recetas tradicionales bolivianas, tal y
+          como las hacía la abuela.
+        </li>
+        <li>
+          <strong>Ingredientes frescos:</strong> Usamos solo los mejores ingredientes
+          para garantizar un sabor único en cada producto.
+        </li>
+        <li>
+          <strong>Servicio cercano:</strong>Nos enorgullece llevar el sabor de
+          casa directamente a tu mesa, con entrega a domicilio para que
+          disfrutes de nuestra comida como en familia.
+        </li>
+      </ul>
+
+      <h3>Únase a nosotros</h3>
+      <p>
+        Ya sea que estés celebrando una ocasión especial o simplemente
+        disfrutando de los sabores auténticos de Bolivia, en <strong
+          >Sabor Tradicional</strong
+        > llevamos el sabor de casa directamente a tu puerta. <em
+          >Ven por el sabor, quédate por los recuerdos.</em
+        >
+      </p>
+    </Article>
+  </Section>
+</Layout>

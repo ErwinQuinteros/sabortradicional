@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"title": "Bizcocho dulce Poli",
+		"image": "/src/assets/images/gallery/bizcochodulce.jpeg",
+		"alt": "Bizcocho dulce Poli"
+	},
+	{
+		"id": 2,
+		"title": "Cuñapes Poli",
+		"image": "/src/assets/images/gallery/cuniape.webp",
+		"alt": "Cuñapes Poli"
+	},
+	{
+		"id": 3,
+		"title": "Empandas de queso Poli",
+		"image": "/src/assets/images/gallery/empanadadequeso.jpeg",
+		"alt": "Empandas de queso Poli"
+	},
+	{
+		"id": 4,
+		"title": "Pan Integral Poli",
+		"image": "/src/assets/images/gallery/pan-integral.jpeg",
+		"alt": "Pan Integral Poli"
+	},
+	{
+		"id": 5,
+		"title": "Panecillo de maiz Poli",
+		"image": "/src/assets/images/gallery/panecillos-de-maiz.png",
+		"alt": "Panecillo de maiz Poli"
+	},
+	{
+		"id": 6,
+		"title": "Pasteles de queso Poli",
+		"image": "/src/assets/images/gallery/pastelitos-de-queso.jpg",
+		"alt": "Pasteles de queso Poli"
+	},
+	{
+		"id": 7,
+		"title": "Cuñapes Poli",
+		"image": "/src/assets/images/gallery/Cuñapes.jpg",
+		"alt": "Cuñapes Poli"
+	}
+]

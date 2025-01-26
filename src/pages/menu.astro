@@ -1,0 +1,19 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Heading from "~/components/Heading.astro";
+import MenuList from "~/components/Menu.astro";
+---
+
+<Layout>
+	<Section>
+		<Heading>
+			<h1 slot="heading-title" class="font-black text-brand-green text-4xl md:h2">Nuestro Menú</h1>
+			<p slot="heading-content">
+				Ofrecemos una variedad de productos, desde los tradicionales hasta los más innovadores, perfectos para satisfacer tus antojos y acompañar cada momento especial.
+			</p>
+		</Heading>
+
+		<MenuList />
+	</Section>
+</Layout>

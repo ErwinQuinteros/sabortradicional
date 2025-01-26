@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"author": "María López",
+		"review": "Las empanadas de queso estaban increíbles, con ese toque dulce de azúcar que me transportó a mi infancia en Cochabamba. El api caliente fue el acompañamiento perfecto para esta fría tarde en Valencia. ¡Totalmente recomendado!"
+	},
+	{
+		"id": 2,
+		"author": "Carlos Fernández",
+		"review": "Los pasteles de queso son una verdadera obra maestra. La masa es crujiente, el queso tiene ese sabor fresco ¡Volveré sin duda!"
+	},
+	{
+		"id": 3,
+		"author": "Ana Hernandez",
+		"review": "Probé las empanadas y los pasteles, y ambos estaban deliciosos. Es como un pedacito de Bolivia aquí en España."
+	},
+	{
+		"id": 4,
+		"author": "Jorge Gutiérrez",
+		"review": "Las empanadas de queso me recordaron a las que solía comer en Cochabamba, con ese sabor único y la textura perfecta. El api morado fue el complemento ideal. ¡No puedo esperar para volver!"
+	},
+	{
+		"id": 5,
+		"author": "Sofía Torres",
+		"review": "Los pasteles de queso estaban recién hechos y perfectamente crujientes me hizo sentir como en casa. Sin duda, una experiencia que quiero repetir."
+	}
+]
