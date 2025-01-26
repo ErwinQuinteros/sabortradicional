@@ -23,12 +23,7 @@ export const menuMain = [
         name: "Contacto",
         url: "/contact",
         highlighted: false,
-    },
-    {
-        name: "Reservar",
-        url: "/book",
-        highlighted: true,
-    },
+    }
 ];
 
 export const footerPrimary = [

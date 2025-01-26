@@ -12,16 +12,16 @@ export const phone = {
 };
 
 export const email = {
-	href: "mailto:info@astropie.com",
-	label: "info@astropie.com",
+	href: "mailto:test@gmail.com",
+	label: "info@sabortradicional.com",
 };
 
 export const address = {
-	street: "1234 Space Street",
-	city: "Galaxy City",
-	zip: "12345",
-	state: "Milky Way",
-	country: "Space",
+	street: "1234test",
+	city: "city test",
+	zip: "111111",
+	state: "state",
+	country: "country",
 };
 
 export const socialMedia = {
